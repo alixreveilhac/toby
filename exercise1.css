@@ -1,0 +1,39 @@
+h1#TheMainHeading {
+    color:red;
+    text-align: center;
+    width: 5cm;
+    padding: 3cm;
+    background: blue;
+    }
+p {
+    color: blue;
+    font-family: helvetica;
+    font-size: 16px;
+}
+ul {
+    background: yellow;
+    margin-right: 3cm;
+    font-weight: bold;
+}
+h2 {
+    color:green;
+    background: orange;
+    margin-left:3cm;
+
+}
+ol {
+    background: teal;
+    }
+div#bear {
+	background: red
+}
+span#bob {
+	background: pink;
+}
+span#NotBob {
+	background: orange;
+}
+a:not(:hover) {
+	color: red;
+}
+a:not(:hover) 
